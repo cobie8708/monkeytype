@@ -230,6 +230,7 @@ declare namespace MonkeyTypes {
     presets: SnapshotPreset[];
     results?: SharedTypes.Result<SharedTypes.Config.Mode>[];
     xp: number;
+    testActivityByYear?: { [key: string]: SharedTypes.TestActivity };
   };
 
   type Group<
