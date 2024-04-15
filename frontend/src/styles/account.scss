@@ -516,6 +516,10 @@
     grid-template-rows: repeat(7, 1fr);
   }
 
+  .nodata {
+    grid-area: chart;
+  }
+
   .activity {
     grid-area: chart;
     display: grid;
@@ -529,7 +533,6 @@
       aspect-ratio: 1;
     }
   }
-
   .activity div {
     &:hover {
       border: 2px solid var(--text-color);
