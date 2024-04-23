@@ -448,6 +448,7 @@ declare namespace MonkeyTypes {
 
   type ModifiableTestActivityCalendar = TestActivityCalendar & {
     increment: (date: Date) => void;
+    getFullYearCalendar: () => TestActivityCalendar;
   };
 
   type TestActivityDay = {
